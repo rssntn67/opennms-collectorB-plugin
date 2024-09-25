@@ -5,9 +5,9 @@ import org.opennms.integration.api.xml.ClassPathGraphPropertiesLoader;
 
 import java.util.List;
 
-public class GraphPropertiesExtension implements org.opennms.integration.api.v1.config.datacollection.graphs.GraphPropertiesExtension {
+public class BGraphPropertiesExtension implements org.opennms.integration.api.v1.config.datacollection.graphs.GraphPropertiesExtension {
 
-    private final ClassPathGraphPropertiesLoader graphPropertiesLoader = new ClassPathGraphPropertiesLoader(GraphPropertiesExtension.class,
+    private final ClassPathGraphPropertiesLoader graphPropertiesLoader = new ClassPathGraphPropertiesLoader(BGraphPropertiesExtension.class,
             "b-graph.properties");
 
     @Override

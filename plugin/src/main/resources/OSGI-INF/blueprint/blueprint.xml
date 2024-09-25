@@ -20,16 +20,16 @@
     </service>
 
     <!-- Expose our custom data collection definitions bundled in the .jar -->
-    <bean id="aCollectorConfig" class="it.arsinfo.opennms.collector.b.plugin.CollectorConfigurationExtension"/>
+    <bean id="aCollectorConfig" class="it.arsinfo.opennms.collector.b.plugin.BCollectorConfigurationExtension"/>
     <service ref="aCollectorConfig"
              interface="org.opennms.integration.api.v1.config.collector.CollectorConfigurationExtension"/>
 
     <service interface="org.opennms.integration.api.v1.config.datacollection.ResourceTypesExtension">
-        <bean class="it.arsinfo.opennms.collector.b.plugin.ResourceTypesExtension"/>
+        <bean class="it.arsinfo.opennms.collector.b.plugin.BResourceTypesExtension"/>
     </service>
     <!-- Load Graphs -->
     <service interface="org.opennms.integration.api.v1.config.datacollection.graphs.GraphPropertiesExtension">
-        <bean class="it.arsinfo.opennms.collector.b.plugin.GraphPropertiesExtension"/>
+        <bean class="it.arsinfo.opennms.collector.b.plugin.BGraphPropertiesExtension"/>
     </service>
 
 </blueprint>
