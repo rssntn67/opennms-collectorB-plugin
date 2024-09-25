@@ -1,0 +1,9 @@
+<collector-configuration xmlns="http://xmlns.opennms.org/xsd/config/collector/api">
+   <package name="CollectorB">
+      <filter> 1 = 1 </filter>
+      <service name="CollectorB" interval="300000">
+      </service>
+   </package>
+
+   <collector service="CollectorB" class-name="it.arsinfo.opennms.collector.b.plugin.BCollector"/>
+</collector-configuration>
