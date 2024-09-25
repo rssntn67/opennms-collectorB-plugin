@@ -3,7 +3,7 @@
       
   <parent>
             
-    <groupId>it.arsinfo</groupId>
+    <groupId>it.arsinfo.collector.b</groupId>
             
     <artifactId>opennms-collectorB-plugin</artifactId>
             
