@@ -6,10 +6,10 @@ import org.opennms.integration.api.xml.ClasspathCollectorConfigurationLoader;
 
 import java.util.List;
 
-public class BCollectorConfigurationExtension implements org.opennms.integration.api.v1.config.collector.CollectorConfigurationExtension {
+public class CollectorConfigurationExtension implements org.opennms.integration.api.v1.config.collector.CollectorConfigurationExtension {
 
     private final org.opennms.integration.api.v1.config.collector.CollectorConfigurationExtension collectorConfiguration = new ClasspathCollectorConfigurationLoader(
-            BCollectorConfigurationExtension.class, "",
+            CollectorConfigurationExtension.class, "",
             "collector-configuration.xml"
     ).getCollectorConfiguration();
 

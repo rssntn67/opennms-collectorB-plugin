@@ -12,11 +12,11 @@ import org.slf4j.LoggerFactory;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
-public class BCollector extends AbstractServiceCollector {
+public class Collector extends AbstractServiceCollector {
 
-    private static final Logger LOG = LoggerFactory.getLogger(BCollector.class);
+    private static final Logger LOG = LoggerFactory.getLogger(Collector.class);
 
-    public BCollector() {
+    public Collector() {
         super();
     }
 

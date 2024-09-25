@@ -50,7 +50,7 @@ public abstract class AbstractServiceCollector implements ServiceCollector {
                                         .setType("CollectorB")
                                         .setInstance("instance"+i)
                                         .build())
-                        .addStringAttribute(createStringAttribute(group, "resourceName", "instance-ame"+i));
+                        .addStringAttribute(createStringAttribute(group, "resourceName", "instance-name-"+i));
     }
 
     public static void addSampleStats(ImmutableCollectionSet.Builder builder, ImmutableNodeResource nodeResource) {

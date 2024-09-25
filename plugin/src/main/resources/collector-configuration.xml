@@ -5,5 +5,5 @@
       </service>
    </package>
 
-   <collector service="CollectorB" class-name="it.arsinfo.opennms.collector.b.plugin.BCollector"/>
+   <collector service="CollectorB" class-name="it.arsinfo.opennms.collector.b.plugin.Collector"/>
 </collector-configuration>
