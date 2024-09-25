@@ -47,7 +47,7 @@ public abstract class AbstractServiceCollector implements ServiceCollector {
         return
                 ImmutableCollectionSetResource.newBuilder(GenericTypeResource.class).setResource(
                                 ImmutableGenericTypeResource.newBuilder().setNodeResource(nodeResource)
-                                        .setType("CollectorB")
+                                        .setType("B")
                                         .setInstance("instance"+i)
                                         .build())
                         .addStringAttribute(createStringAttribute(group, "resourceName", "instance-name-"+i));

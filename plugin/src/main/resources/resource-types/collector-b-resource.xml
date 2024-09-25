@@ -1,5 +1,5 @@
 <resource-types xmlns="http://xmlns.opennms.org/xsd/config/datacollection">
-    <resourceType name="CollectorB" label="Collector B" resourceLabel="Collector B port(${resourceName})">
+    <resourceType name="B" label="Collector B" resourceLabel="Collector B port(${resourceName})">
         <persistenceSelectorStrategy class="org.opennms.netmgt.collection.support.PersistAllSelectorStrategy"/>
         <storageStrategy class="org.opennms.netmgt.collection.support.IndexStorageStrategy"/>
     </resourceType>

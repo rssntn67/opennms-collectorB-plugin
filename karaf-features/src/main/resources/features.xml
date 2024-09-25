@@ -9,7 +9,7 @@
         <feature version="${jackson.version}" dependency="true">jackson</feature>
         <bundle dependency="true">mvn:org.apache.commons/commons-jexl3/${jexl.version}</bundle>
         <bundle dependency="true">mvn:javax.ws.rs/javax.ws.rs-api/2.1.1</bundle>
-        <bundle>mvn:it.arsinfo/opennms-collectorB-plugin-plugin/${project.version}</bundle>
+        <bundle>mvn:it.arsinfo.collector.b/opennms-collectorB-plugin-plugin/${project.version}</bundle>
     </feature>
 
     <feature name="okhttp" description="okhttp" version="${okhttp.version}">
